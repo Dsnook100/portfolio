@@ -1,0 +1,279 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 4.5em;
+	font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+	border-radius: 0;
+	color: #fff;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+	color: #fff;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+	border-radius: 0;
+	color: #333;
+	background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+	color: #333;
+	background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+	margin-top:5px;
+	max-width: 100px;
+}
+
+.toggle {
+	margin: 5px 5px 0 0;
+}
+
+.bg-primary {
+	background-color: #5F9EA0 !important;
+}
+
+.btn-primary {
+	background-color: #5F9EA0 !important;
+}
+
+.btn-primary:active {
+	background-color: #5F9EA0 !important;
+}
+
+.btn-primary:hover {
+	background-color: #5F9EA0 !important;
+	opacity: 0.9;
+}
+
+/* Navbar */
+
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+	border: none;
+	background-color: #5F9EA0;
+	border-bottom: 1px solid #000;
+	box-shadow: 0px 0px 7px #000;
+	position: fixed;
+    left: 0;
+    top: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.navbar .hvr-underline-from-center:before {
+	background: #fff;
+}
+
+/* Header */
+
+.header {
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	color:#fff;
+}
+
+/* About */
+
+.about {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+/* Services */
+
+.services {
+	padding: 50px 0;
+}
+
+.service-item {
+	margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+	display: table;
+	width: 100%;
+	height: 400px;
+	color: #fff;
+	background: url(../img/callout.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	color: #5F9EA0;
+}
+
+.portfolio-item {
+	margin-bottom: 30px;
+}
+
+.img-portfolio {
+	margin: 0 auto;
+}
+
+.img-portfolio:hover {
+	opacity: 0.8;
+}
+
+#portfolio .col-md-6 {
+	padding-bottom:50px;
+}
+
+.card { 
+	padding: 5px;
+	box-shadow: 10px 10px 5px -8px #CBCBCB;
+	border: 1px solid #BEBEBE;
+}
+#portfolio a:focus {
+	outline: 0;
+}
+.card:hover {
+	cursor: pointer;
+}
+.card-img-top {
+	height:226px;
+}
+.card-block {
+	margin-top:10px;
+}
+#portfolio a {
+	text-decoration: none;
+}
+
+
+
+
+/* Call to Action */
+
+.call-to-action {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.call-to-action .btn {
+	margin: 10px;
+}
+
+/* Skills */
+.skills-list {
+	list-style: none;
+}
+
+.skills-list li {
+	margin: 10px 0 10px 0;
+}
+
+.list-group-item {
+	background-color: #5F9EA0;
+}
+
+/* Footer */
+
+#footer {
+	padding-top: 10px;
+	width: 100%;
+	background:url(../img/contact-bg.jpg) no-repeat center -695px scroll;
+	background-color: #5F9EA0 !important;
+}
+
+@media (max-width: 400px) {
+  #footer {
+	  background: url(../img/contact-bg.jpg) no-repeat -745px -630px scroll;
+  }
+}
+
+#footer .col-lg-8 h1 {
+	color:#000;
+}
+
+footer .container {
+	margin-bottom:50px;
+}
+#contactForm {
+	color:#000;
+}
+.submit-btn {
+	height: 50px;
+	width: 200px;
+	font-size: 22px;
+}
+#result {
+	width: 74%;
+	margin-top:20px;
+}
+
+.footer-links { 
+	background-color: #5F9EA0;
+	text-align: center;
+	padding: 20px;
+}
+.footer-links a {
+	padding:0 10px;
+}
+.footer-links p {
+	margin:10px 0 0;
+}
